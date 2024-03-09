@@ -34,3 +34,10 @@ groups=[['jane','boyt','kamau'],['john','kandi']]
 for group in groups:
   for name in group:
     print(name)
+
+#list comprehesions
+nums=[20,39,40,56,-51]
+doubled=[]
+for num in nums:
+  doubled.append(num*2)
+  print (doubled)
